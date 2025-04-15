@@ -9,7 +9,7 @@ FastAPI микросервис для получения информации о
     Windows - venv\Scripts\activate
 3. Установить зависимости: pip install -r requirements.txt
 4. Создать файл .env в корне проекта на основе .env.sample
-5. Запустить приложение: uvicorn main:app --reload
+5. Запустить приложение: uvicorn app.main:app --reload
 
 Документация доступна по адресу http://localhost:8000/docs
 
